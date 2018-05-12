@@ -1,0 +1,12 @@
+[package]
+name = "librustwebgold"
+version = "0.1.0"
+authors = ["Sean Bowe <ewillbefull@gmail.com>"]
+
+[lib]
+name = "rustwebgold"
+path = "src/rustwebgold.rs"
+crate-type = ["staticlib"]
+
+[dependencies]
+libc = "0.2"
